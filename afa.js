@@ -50,7 +50,7 @@ function typeEffect(element, text, speed = 40) {
 
 async function startTyping() {
     await typeEffect(document.getElementById('main-title'), "Para mi cachetona favorita...", 80);
-    await typeEffect(document.getElementById('intro-text'), "100 razones para amarte :");
+    await typeEffect(document.getElementById('intro-text'), "100 razones para amarte:");
     
     const list = document.getElementById('reasons-list');
     for (let i = 0; i < reasons.length; i++) {
